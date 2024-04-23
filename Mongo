@@ -1,0 +1,24 @@
+# MongoDB
+Mongo DB is a dataBase Server . Where we can create multiple Database
+It can store huge amount of data
+# MY SQL                MONGODB
+DataBase               DataBase
+Tables                Collections( Ex student , Employee .........)
+Rows                  Documents (Json like format-->BSON Binary Json--->convert in binary )
+                      Student 
+                     1)    {
+                      Name:"seema"
+                      Age:"20"
+                      College:"IGDTUW"
+                      Branch:"IT"
+                      }
+                      2)  To add field there is no scheme just add new field according to requirement in collection
+                      {
+                      Name:"Rohit"
+                      Age:"20"
+                      College:"DTU"
+                      Branch:"IT"
+                      previous:["Amazon","Microsoft","Google","Cisco"]
+                      }
+                      Flexibile -----> No fixed schema
+                      Less Relation
